@@ -77,9 +77,11 @@ button:active {
   background: #00474b;
   color: white;
 }
-.rarebtn {
+.defaultbtn:hover {
   color: #00474b;
   background: #26c2ae;
+}
+.rarebtn {
 }
 .custombtn {
   background: #f3f9fa;
