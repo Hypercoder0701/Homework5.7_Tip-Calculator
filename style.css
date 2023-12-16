@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 100%;
+  background-color: #c5e4e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Space Mono;
+}
+.container {
+  display: flex;
+  padding: 32px;
+  width: 60%;
+  background-color: white;
+  border-radius: 25px;
+  gap: 32px;
+}
+.container section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+svg {
+  position: relative;
+  left: 20px;
+  top: 27px;
+}
+input {
+  margin-top: -10px;
+  width: 100%;
+  font: inherit;
+  font-size: 24px;
+  background-color: #f3f9fa;
+  text-align: right;
+  padding: 6px 17px 6px;
+  border-radius: 5px;
+  border: none;
+}
+.firstsp {
+  color: #5e7a7d;
+}
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+button {
+  font: inherit;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 1;
+}
+.defaultbtn {
+  width: 100px;
+  padding: 6px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #00474b;
+  color: white;
+}
+.rarebtn {
+  color: #00474b;
+  background: #26c2ae;
+}
+.custombtn {
+  background: #f3f9fa;
+  color: #547878;
+}
+.resultsec {
+  padding: 40px;
+  border-radius: 15px;
+  background: #00474b;
+}
+.paymentinf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+.paymentinf > span {
+  color: #26c2ae;
+  font-size: 48px;
+  letter-spacing: -1px;
+}
+.txtperson {
+  color: #7f9d9f;
+  font-size: 13px;
+}
+.resetbtn {
+  color: #00474b;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #26c2ae;
+  padding: 9px 0;
+}
